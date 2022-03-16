@@ -1,0 +1,82 @@
+/* primer ejemplo etiqueta sematica */
+
+body {
+    background-color: lightgreen;
+    
+}
+
+/* esto es un comentario en CSS */
+header {
+    background-color: blueviolet;
+    width: 90%;
+    height: 60px;
+    border: 5px solid yellow;
+}
+/* en este aso el selector hace referencia a una clase, es decir el selector lleva 
+un punto delante */
+.menu li {
+    display: inline;
+    text-align: center;
+    }
+    .menu {
+        padding: 0;
+        list-style: none;
+        background-color: lightgreen;
+        width: 90%;
+        max-width: 1000px;
+        /* para que quede centrado */
+        margin: auto;
+    }
+     
+    .menu li {
+        display: inline;
+        text-align: center;
+    }
+    .menu li a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        width: 200px;
+        text-decoration: none;
+        float: left;
+        padding: 10px;
+        background-color: goldenrod;
+        /* vambiamos el color de la letra */
+        color: white;
+    }
+    
+    /* cuando haces referencia a una clase el selector lleva PUNTO */
+    .principal{
+        background-color: orange;
+        width: 90%;
+        height: 130px;
+        border: 5px solid black;
+        overflow: hidden;
+    }
+     
+    .contenido{
+        width: 77%;
+        height: 130px;
+        /* los componentes suelen ordenarse apilados, es decir, uno arriba del otro 
+        nosotros para situarlo al lado aplicamos el atributo float en LEFT  */
+        float: left;
+        border: 5px solid red;
+    }
+     
+    .barra_lateral {
+     
+        width: 21%;
+        height: 130px;
+        border: 5px solid burlywood;
+        float: left;
+     
+    }
+     
+    footer{
+        background-color: whitesmoke;
+        width: 90%;
+        border: 5px solid black;
+    }
+    #social{
+        background-color: grey;
+    }
+    
