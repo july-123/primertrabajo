@@ -21,7 +21,7 @@ un punto delante */
     .menu {
         padding: 0;
         list-style: none;
-        background-color: lightgreen;
+        background-color: rgb(51, 88, 97);
         width: 90%;
         max-width: 1000px;
         /* para que quede centrado */
